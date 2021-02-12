@@ -55,7 +55,7 @@ inquirer
       },
  
 ]).then((data) =>{
- 
+ console.log(data)
    
 //put info in md util
  const newReadMe = generateMarkdown(data);

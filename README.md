@@ -1,37 +1,36 @@
 
-  # laskdf [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # ReadMe Maker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
   ## Description
-  asdf
+   Generate a read me file for GitHub using javascript and node.
 
   ## License
-  [View Full MIT License](https://opensource.org/licenses/MIT)
+   [View Full MIT License](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
 
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
   ## Installation
-  af
+   Use npm i for the package.json
 
   ## Usage
 
-  af
-
-  ## Contributing
-  aa
+   In the terminal, use node index.js
 
   ## Tests
-  af
+   In the terminal node test.js
+
+   ## Contributing
+   No need to contribute at this time.
 
   ## Questions
-  Please see my [GitHub profile](https://github.com/asfd)
-
-  You can also email me questions at: asdf
+   Please see my [GitHub profile](https://github.com/profileHere)
+   You can also email me questions at: yourEmail@gmail.com
 

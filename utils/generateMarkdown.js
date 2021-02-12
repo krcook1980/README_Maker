@@ -1,5 +1,3 @@
-
-
 // function to generate markdown for README
 
 function generateMarkdown(data) {
@@ -40,42 +38,42 @@ switch(data.projLic) {
       break;
 
 };
-console.log(licBadge)
+
  
   return `
   # ${data.title} ${licBadge}\n
 ---
   ## Description
-  ${data.projDesc}
+   ${data.projDesc}
 
   ## License
-  ${licLink}
+   ${licLink}
 
   ## Table of Contents
 
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
   ## Installation
-  ${data.install}
+   ${data.install}
 
   ## Usage
 
-  ${data.usage}
-
-  ## Contributing
-  ${data.contribute}
+   ${data.usage}
 
   ## Tests
-  ${data.test}
+   ${data.test}
+
+   ## Contributing
+   ${data.contribute}
 
   ## Questions
-  Please see my [GitHub profile](https://github.com/${data.github})\n
-  You can also email me questions at: ${data.email}
+   Please see my [GitHub profile](https://github.com/${data.github})
+   You can also email me questions at: ${data.email}
 
 `;
 }
