@@ -7,7 +7,7 @@
    Generate a read me file for GitHub using javascript and node.
 
   ## License
-   [View Full MIT License](https://opensource.org/licenses/MIT)
+   [View Full MIT License](rmdemo.gif)
 
   ## Table of Contents
 
