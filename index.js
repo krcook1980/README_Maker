@@ -21,7 +21,8 @@ inquirer
         type: 'list',
         name: 'projLic',
         message: 'Which license do you want to use for this project?',
-        choices: ["MIT", "Apache", "Eclipse", "Mozilla", "Unlicense"],
+        choices: ["MIT", "Apache", "Eclipse", "Mozilla", "Unlicense", "GNU"],
+        default: 'MIT'
       },
       {
         type: 'input',
@@ -37,21 +38,25 @@ inquirer
         type: 'input',
         name: 'install',
         message: 'Enter your project installation instructions:',
+        default: 'In the terminal, npm i.'
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'Enter your project usage:',
+        message: 'Enter your project usage:',  
+        default:  'In the terminal, use node index.js.'     
       },
       {
         type: 'input',
         name: 'test',
         message: 'What command will run the tests?',
+        default: 'In the terminal, npm run test.'
       },
       {
         type: 'input',
         name: 'contribute',
         message: 'How can the user contribute to this repo?',
+        default: 'No need to contribute at this time.'
       },
  
 ]).then((data) =>{
